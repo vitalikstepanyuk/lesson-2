@@ -1,0 +1,23 @@
+.container {
+	background-color: gray;
+	border-radius: 15px;
+	display: flex;		
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px 15px;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+.flex-item {	
+	min-height: 200px;	
+	background-color: blue;
+	color: #fff;	
+	border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin: 0 10px 20px;
+	flex: 1 1 calc(25% - 20px);
+}
